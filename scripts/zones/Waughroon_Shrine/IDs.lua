@@ -19,8 +19,16 @@ zones[xi.zone.WAUGHROON_SHRINE] =
         LOGIN_NUMBER                  = 7003, -- In celebration of your most recent login (login no. <number>), we have provided you with <number> points! You currently have a total of <number> points.
         MEMBERS_LEVELS_ARE_RESTRICTED = 7023, -- Your party is unable to participate because certain members' levels are restricted.
         CONQUEST_BASE                 = 7060, -- Tallying conquest results...
+        TIME_IN_THE_BATTLEFIELD_IS_UP = 7224, -- Your time in the battlefield is up!\x07Now exiting...
+        PARTY_MEMBERS_ARE_ENGAGED     = 7225, -- You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.
+        MEMBERS_OF_YOUR_PARTY         = 7530, -- Currently, {e:3} members of your party (including yourself) have clearance to enter the battlefield.
+        MEMBERS_OF_YOUR_ALLIANCE      = 7531, -- Currently, {e:3} members of your alliance (including yourself) have clearance to enter the battlefield.
+        TIME_LIMIT_FOR_THIS_BATTLE_IS = 7533, -- The time limit for this battle is {e:3} minutes.
+        ORB_CRACKED                   = 7534, -- There is a crack in the <01052382838080>. It no longer contains a monster.
+        A_CRACK_HAS_FORMED            = 7535, -- A crack has formed on the <01052382838080>, and the beast inside has been unleashed!
         PARTY_MEMBERS_HAVE_FALLEN     = 7569, -- All party members have fallen in battle. Now leaving the battlefield.
         THE_PARTY_WILL_BE_REMOVED     = 7576, -- If all party members' HP are still zero after # minute[/s], the party will be removed from the battlefield.
+        ENTERING_THE_BATTLEFIELD_FOR  = 7595, -- Entering the battlefield for “{e:1:select}[The Rank 2 Final Mission/The Worm's Turn/Grimshell Shocktroopers/On My Way/A Thief in Norg!?/3, 2, 1.../Shattering Stars (RDM)/Shattering Stars (THF)/Shattering Stars (BST)/Birds of a Feather/Crustacean Conundrum/Grove Guardians/The Hills are Alive/Royal Jelly/The Final Bout/Up in Arms/Copycat/Operation Desert Swarm/Prehistoric Pigeons/The Palborough Project/Shell Shocked/Beyond Infinity/★The Worm's Tail/★Grimshell Shocktroopers/A Feast Most Dire/A.M.A.N. Trove
         BOMB_TIMER_60                 = 7679, -- 60.........
         BOMB_TIMER_30                 = 7680, -- 30......
         BOMB_TIMER_20                 = 7681, -- 20...
@@ -48,6 +56,7 @@ zones[xi.zone.WAUGHROON_SHRINE] =
         HUH_IS_THAT_ALL               = 7735, -- Huh? Is that all? I haven't even broken a sweataru...
         YIKEY_WIKEYS                  = 7736, -- Yikey-wikeys! Get that thing away from meee!
         WHATS_THE_MATTARU             = 7737, -- <Pant, wheeze>... What's the mattaru, <name>? Too much of a pansy-wansy to fight fair?
+
     },
 
     mob =
