@@ -19,8 +19,23 @@ zones[xi.zone.QUBIA_ARENA] =
         LOGIN_NUMBER                  = 7003, -- In celebration of your most recent login (login no. <number>), we have provided you with <number> points! You currently have a total of <number> points.
         MEMBERS_LEVELS_ARE_RESTRICTED = 7023, -- Your party is unable to participate because certain members' levels are restricted.
         CONQUEST_BASE                 = 7060, -- Tallying conquest results...
+        NO_BATTLEFIELD_ENTRY          = 7221, -- You cannot enter the battlefield at present. Please wait a little longer
+        TIME_IN_THE_BATTLEFIELD_IS_UP = 7224, -- Your time in the battlefield is up!\x07Now exiting...
+        PARTY_MEMBERS_ARE_ENGAGED     = 7239, --The battlefield where your party members are engaged in combat is locked. Access is denied.
+        TESTIMONY_IS_WEARING          = 7282 , -- Your <01052382808080> {e:1:select}[/rips into shreds!/is on the verge of tearing apart.../is showing signs of wear...] ({e:2} <7F9202>[use remains/uses remain].
+        TESTIMONY_IS_TORN             = 7283, -- Your <01052382808080> is torn...
+        MEMBERS_OF_YOUR_PARTY         = 7530, -- Currently, {e:3} members of your party (including yourself) have clearance to enter the battlefield
+        MEMBERS_OF_YOUR_ALLIANCE      = 7531, -- Currently, {e:3} members of your alliance (including yourself) have clearance to enter the battlefield.
+        TIME_LIMIT_FOR_THIS_BATTLE_IS = 7533, -- The time limit for this battle is {e:3} minutes
+        ORB_CRACKED                   = 7534, -- There is a crack in the <01052382838080>. It no longer contains a monster.
+        ORB_WORN                      = 7535, -- A crack has formed on the <01052382838080>, and the beast inside has been unleashed!
         PARTY_MEMBERS_HAVE_FALLEN     = 7569, -- All party members have fallen in battle. Now leaving the battlefield.
         THE_PARTY_WILL_BE_REMOVED     = 7576, -- If all party members' HP are still zero after # minute[/s], the party will be removed from the battlefield.
+        ENTERING_THE_BATTLEFIELD_FOR  = 7594, -- Entering the battlefield for “{e:1:select}[The Rank 5 Mission/Come Into My Parlor/E-vase-ive Action/Infernal
+                                              -- Swarm/The Heir to the Light/Shattering Stars (PLD)/Shattering Stars (DRK)/Shattering Stars (BRD)/Demolition Squad/Die by the Sword/
+                                              -- Let Sleeping Dogs Die/Brothers D'Aurphe/Undying Promise/Factory Rejects/Idol Thoughts/An Awful Autopsy/Celery/Mirror Images/
+                                              -- A Furious Finale/Clash of the Comrades/Those Who Lurk in Shadows/Beyond Infinity/★Factory Rejects/★Demolition Squad/★Brothers D'Aurphe/
+                                              -- Mumor's Encore]”!
         FLAT_PREPARE                  = 7633, -- I am Trion, of San d'Oria!
         FLAT_LAND                     = 7634, -- Feel the fire of my forefathers!
         RLB_PREPARE                   = 7635, -- The darkness before me that shrouds the light of good...
@@ -41,6 +56,7 @@ zones[xi.zone.QUBIA_ARENA] =
         HUH_IS_THAT_ALL               = 8019, -- Huh? Is that all? I haven't even broken a sweataru...
         YIKEY_WIKEYS                  = 8020, -- Yikey-wikeys! Get that thing away from meee!
         WHATS_THE_MATTARU             = 8021, -- <Pant, wheeze>... What's the mattaru, <name>? Too much of a pansy-wansy to fight fair?
+
     },
     mob =
     {
