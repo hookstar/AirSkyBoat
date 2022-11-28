@@ -34,6 +34,29 @@ function content:checkRequirements(player, npc, isRegistrant, trade)
            (current == xi.mission.id.cop.THE_MOTHERCRYSTALS and not player:hasKeyItem(xi.ki.LIGHT_OF_DEM))
 end
 
+function content:onBattlefieldWin(player, battlefield)
+    BattlefieldMission.onBattlefieldWin(self, player, battlefield)
+    local copMission = player:getCurrentMission(xi.mission.log_id.COP)
+
+    if
+        (copMission == xi.mission.id.cop.BELOW_THE_ARKS or
+        copMission == xi.mission.id.cop.THE_MOTHERCRYSTALS) and
+        not player:hasKeyItem(xi.ki.LIGHT_OF_DEM)
+    then
+        player:setLocalVar('newPromy', 1)
+    end
+end
+
+function content:onEventFinishWin(player, csid, option)
+    BattlefieldMission.onEventFinishWin(player, csid, option)
+    if
+        player:getCurrentMission(xi.mission.log_id.COP) > xi.mission.id.cop.THE_MOTHERCRYSTALS and
+        not player:getLocalVar('toLufaise') == 1
+    then
+        xi.teleport.to(player, xi.teleport.id.EXITPROMDEM)
+    end
+end
+
 content:addEssentialMobs({"Progenerator" })
 
 return content:register()
