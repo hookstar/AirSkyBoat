@@ -2,13 +2,9 @@
 -- Ancient Flames Beckon
 -- Spire of Holla mission battlefield
 -----------------------------------
-local ID = require("scripts/zones/Spire_of_Holla/IDs")
 require("scripts/globals/battlefield")
-require("scripts/globals/teleports")
-require("scripts/globals/keyitems")
 require("scripts/globals/missions")
 require("scripts/globals/status")
-require('scripts/missions/cop/helpers')
 -----------------------------------
 
 local content = BattlefieldMission:new({
@@ -21,12 +17,22 @@ local content = BattlefieldMission:new({
     entryNpc         = "_0h0",
     exitNpc          = {"_0h1", "_0h2", "_0h3" },
 
-    missionArea           = xi.mission.log_id.COP,
-    mission               = xi.mission.id.cop.THE_MOTHERCRYSTALS,
-
-    title                 = xi.title.ANCIENT_FLAME_FOLLOWER,
-    grantXP               = 1500,
+    missionArea = xi.mission.log_id.COP,
+    mission     = xi.mission.id.cop.THE_MOTHERCRYSTALS,
+    title       = xi.title.ANCIENT_FLAME_FOLLOWER,
+    grantXP     = 1500,
 })
+
+function content:checkRequirements(player, npc, isRegistrant, trade)
+    if not Battlefield.checkRequirements(self, player, npc, isRegistrant, trade) then
+        return false
+    end
+
+    local missionArea = self.missionArea or player:getNation()
+    local current = player:getCurrentMission(missionArea)
+    return current == xi.mission.id.cop.BELOW_THE_ARKS or
+           (current == xi.mission.id.cop.THE_MOTHERCRYSTALS and not player:hasKeyItem(xi.ki.LIGHT_OF_HOLLA))
+end
 
 content:addEssentialMobs({"Wreaker" })
 
