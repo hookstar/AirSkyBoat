@@ -19,8 +19,17 @@ zones[xi.zone.BALGAS_DAIS] =
         LOGIN_NUMBER                  = 7003, -- In celebration of your most recent login (login no. <number>), we have provided you with <number> points! You currently have a total of <number> points.
         MEMBERS_LEVELS_ARE_RESTRICTED = 7023, -- Your party is unable to participate because certain members' levels are restricted.
         CONQUEST_BASE                 = 7060, -- Tallying conquest results...
+        TIME_IN_THE_BATTLEFIELD_IS_UP = 7224, -- Your time in the battlefield is up!\x07Now exiting...
+        PARTY_MEMBERS_ARE_ENGAGED     = 7225, -- You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.
+        NO_BATTLEFIELD_ENTRY          = 7238, -- A cursed seal has been placed upon this platform.
+        MEMBERS_OF_YOUR_PARTY         = 7530, -- Currently, {e:3} members of your party (including yourself) have clearance to enter the battlefield.
+        MEMBERS_OF_YOUR_ALLIANCE      = 7531, -- Currently, {e:3} members of your alliance (including yourself) have clearance to enter the battlefield.
+        TIME_LIMIT_FOR_THIS_BATTLE_IS = 7533, -- The time limit for this battle is {e:3} minutes.
+        THERE_IS_A_CRACK              = 7534, -- There is a crack in the <01052382838080>. It no longer contains a monster. 
+        A_CRACK_HAS_FORMED            = 7535, -- A crack has formed on the <01052382838080>, and the beast inside has been unleashed!<7F31>
         PARTY_MEMBERS_HAVE_FALLEN     = 7569, -- All party members have fallen in battle. Now leaving the battlefield.
         THE_PARTY_WILL_BE_REMOVED     = 7576, -- If all party members' HP are still zero after # minute[/s], the party will be removed from the battlefield.
+        ENTERING_THE_BATTLEFIELD_FOR  = 7595, -- Lists them all
         YOU_DECIDED_TO_SHOW_UP        = 7641, -- So, you decided to show up. Now it's time to see what you're really made of, heh heh heh.
         LOOKS_LIKE_YOU_WERENT_READY   = 7642, -- Looks like you weren't ready for me, were you? Now go home, wash your face, and come back when you think you've got what it takes.
         YOUVE_COME_A_LONG_WAY         = 7643, -- Hm. That was a mighty fine display of skill there, <name>. You've come a long way...
@@ -40,6 +49,7 @@ zones[xi.zone.BALGAS_DAIS] =
         HUH_IS_THAT_ALL               = 7689, -- Huh? Is that all? I haven't even broken a sweataru...
         YIKEY_WIKEYS                  = 7690, -- Yikey-wikeys! Get that thing away from meee!
         WHATS_THE_MATTARU             = 7691, -- <Pant, wheeze>... What's the mattaru, <name>? Too much of a pansy-wansy to fight fair?
+
     },
     mob =
     {
