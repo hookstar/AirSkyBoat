@@ -1241,6 +1241,48 @@ function BattlefieldMission:onBattlefieldWin(player, battlefield)
     player:startEvent(32001, battlefield:getArea(), clearTime, partySize, battlefield:getTimeInside(), 1, self.index, canSkipCS)
 end
 
+-- Shattering Stars
+BattlefieldShatteringStars = setmetatable({ }, { __index = BattlefieldQuest })
+BattlefieldShatteringStars.__index = BattlefieldShatteringStars
+
+function BattlefieldShatteringStars:new(data)
+    data.questArea = xi.quest.log_id.JEUNO
+    data.quest = xi.quest.id.jeuno.SHATTERING_STARS
+    data.title = xi.title.MAAT_MASHER
+    data.allowSubjob = false
+    data.canLoseExp = false
+
+    local obj = BattlefieldQuest:new(data)
+    setmetatable(obj, self)
+    obj.requiredJob = data.requiredJob
+
+    return obj
+end
+
+function BattlefieldShatteringStars:checkRequirements(player, npc, isRegistrant, trade)
+    if player:getMainJob() ~= self.requiredJob or player:getMainLvl() < 66 then
+        return false
+    end
+
+    return BattlefieldQuest.checkRequirements(self, player, npc, isRegistrant, trade)
+end
+
+function BattlefieldShatteringStars:onEventFinishWin(player, csid, option)
+    Battlefield.onEventFinishWin(self, player, csid, option)
+
+    local mainJob = player:getMainJob()
+    local maatsCap = player:getCharVar("maatsCap")
+
+    if player:getQuestStatus(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.SHATTERING_STARS) == QUEST_ACCEPTED then
+        npcUtil.giveItem(player, xi.items.SCROLL_OF_INSTANT_WARP)
+        player:setCharVar("Quest[3][132]Prog", mainJob)
+    end
+
+    if not utils.mask.getBit(maatsCap, mainJob - 1) then
+        player:setCharVar("maatsCap", utils.mask.setBit(maatsCap, mainJob - 1, true))
+    end
+end
+
 function BattlefieldMission:onEventFinishWin(player, csid, option)
     if self.title then
         player:addTitle(self.title)
