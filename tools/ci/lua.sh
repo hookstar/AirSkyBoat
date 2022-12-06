@@ -71,6 +71,7 @@ global_objects=(
     Battlefield
     BattlefieldMission
     BattlefieldQuest
+    BattlefieldShatteringStars
     Limbus
 
     removeSleepEffects
