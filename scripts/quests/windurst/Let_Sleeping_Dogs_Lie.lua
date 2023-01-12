@@ -84,7 +84,7 @@ quest.sections =
                     elseif quest:getVar(player, 'Prog') == 3 then
                         return quest:event(496)
                     elseif quest:getVar(player, 'Prog') == 4 then
-                        return quest:event(497)
+                        return quest:progressEvent(497)
                     end
                 end,
             },
