@@ -888,14 +888,14 @@ UPDATE mob_groups SET minLevel = 61, maxLevel = 67 WHERE name = "Tonberry_Stabbe
 -- ------------------------------------------------------------
 
 UPDATE mob_groups SET minLevel = 53, maxLevel = 55 WHERE name = "Tonberrys_Elemental"  and zoneid = 160;
-UPDATE mob_groups SET minLevel = 62, maxLevel = 72 WHERE name = "Tonberry_Imprecator"  and zoneid = 160;
-UPDATE mob_groups SET minLevel = 62, maxLevel = 72 WHERE name = "Tonberry_Trailer"  and zoneid = 160;
-UPDATE mob_groups SET minLevel = 66, maxLevel = 72 WHERE name = "Tonberry_Beleaguerer"  and zoneid = 160;
-UPDATE mob_groups SET minLevel = 75, maxLevel = 78 WHERE name = "Doom_Toad"  and zoneid = 160;
-UPDATE mob_groups SET minLevel = 75, maxLevel = 78 WHERE name = "Tormentor"  and zoneid = 160;
+UPDATE mob_groups SET minLevel = 62, maxLevel = 65 WHERE name = "Tonberry_Imprecator"  and zoneid = 160;
+UPDATE mob_groups SET minLevel = 62, maxLevel = 65 WHERE name = "Tonberry_Trailer"  and zoneid = 160;
+UPDATE mob_groups SET minLevel = 66, maxLevel = 65 WHERE name = "Tonberry_Beleaguerer"  and zoneid = 160;
+UPDATE mob_groups SET minLevel = 79, maxLevel = 81 WHERE name = "Doom_Toad"  and zoneid = 160;
+UPDATE mob_groups SET minLevel = 75, maxLevel = 79 WHERE name = "Tormentor"  and zoneid = 160;
 UPDATE mob_groups SET minLevel = 64, maxLevel = 67 WHERE name = "Mousse"  and zoneid = 160;
 UPDATE mob_groups SET minLevel = 63, maxLevel = 70 WHERE name = "Mousse_fished"  and zoneid = 160;
-UPDATE mob_groups SET minLevel = 65, maxLevel = 68 WHERE name = "Succubus_Bats"  and zoneid = 160;
+UPDATE mob_groups SET minLevel = 65, maxLevel = 69 WHERE name = "Succubus_Bats"  and zoneid = 160;
 
 -- ------------------------------------------------------------
 -- Castle_Zvahl_Baileys (Zone 161)
