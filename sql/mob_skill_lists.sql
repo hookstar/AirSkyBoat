@@ -158,7 +158,7 @@ INSERT INTO `mob_skill_lists` VALUES ('Beetle',49,343);
 INSERT INTO `mob_skill_lists` VALUES ('Gloom_Eye',50,548);
 INSERT INTO `mob_skill_lists` VALUES ('Gloom_Eye',50,549);
 INSERT INTO `mob_skill_lists` VALUES ('Behemoth',51,628);
-INSERT INTO `mob_skill_lists` VALUES ('Behemoth',51,629);
+INSERT INTO `mob_skill_lists` VALUES ('Behemoth',51,1686);
 INSERT INTO `mob_skill_lists` VALUES ('Behemoth',51,630);
 INSERT INTO `mob_skill_lists` VALUES ('Behemoth',51,631);
 INSERT INTO `mob_skill_lists` VALUES ('Behemoth',51,632);

@@ -1584,7 +1584,7 @@ INSERT INTO `mob_skills` VALUES (1671,202,'ink_jet_alt',0,7.0,2000,0,4,4,0,3,0,0
 -- INSERT INTO `mob_skills` VALUES (1683,1427,'#1427',0,7.0,2000,1500,4,0,0,0,0,0,0);
 -- INSERT INTO `mob_skills` VALUES (1684,120,'foul_breath',0,7.0,2000,1500,4,0,0,0,0,0,0);
 -- INSERT INTO `mob_skills` VALUES (1685,1429,'frost_breath',0,7.0,2000,1500,4,0,0,0,0,0,0);
--- INSERT INTO `mob_skills` VALUES (1686,1430,'thunderbolt',0,7.0,2000,1500,4,0,0,0,0,0,0);
+INSERT INTO `mob_skills` VALUES (1686,1430,'thunderbolt',1,30.0,2000,1500,4,0,0,0,0,0,0); -- Behemoth non aoe to bystanders.
 -- INSERT INTO `mob_skills` VALUES (1687,123,'chomp_rush',0,7.0,2000,1500,4,0,0,0,0,0,0);
 -- INSERT INTO `mob_skills` VALUES (1688,124,'scythe_tail',0,7.0,2000,1500,4,0,0,0,0,0,0);
 -- INSERT INTO `mob_skills` VALUES (1689,1433,'double_claw',0,7.0,2000,1500,4,0,0,0,0,0,0);
