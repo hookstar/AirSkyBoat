@@ -14,7 +14,7 @@ require("scripts/globals/quests")
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
-    if
+--[[    if
         player:getQuestStatus(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.GRAVE_CONCERNS) == QUEST_ACCEPTED and
         npcUtil.tradeHas(trade, xi.items.SKIN_OF_WELL_WATER) -- Well Water
     then
@@ -46,7 +46,7 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 3 and npcUtil.giveItem(player, xi.items.TOMB_GUARDS_WATERSKIN) then
         player:confirmTrade()
         player:setCharVar("OfferingWaterOK", 1)
-    end
+    end--]]
 end
 
 return entity

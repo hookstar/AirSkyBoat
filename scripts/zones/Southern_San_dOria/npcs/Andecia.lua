@@ -12,7 +12,7 @@ require("scripts/globals/titles")
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
-    if player:getQuestStatus(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.GRAVE_CONCERNS) == QUEST_ACCEPTED then
+--[[    if player:getQuestStatus(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.GRAVE_CONCERNS) == QUEST_ACCEPTED then
         if
             trade:hasItemQty(547, 1) and
             trade:getItemCount() == 1 and
@@ -68,7 +68,7 @@ entity.onEventFinish = function(player, csid, option)
         player:messageSpecial(ID.text.GIL_OBTAINED, xi.settings.main.GIL_RATE * 560)
         player:addFame(xi.quest.fame_area.SANDORIA, 30)
         player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.GRAVE_CONCERNS)
-    end
+    end--]]
 end
 
 return entity
