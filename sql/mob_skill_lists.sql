@@ -4028,6 +4028,9 @@ INSERT INTO `mob_skill_lists` VALUES ('JailerOfTemperance',4047,1467);
 INSERT INTO `mob_skill_lists` VALUES ('JailerOfTemperance',4047,1468);
 INSERT INTO `mob_skill_lists` VALUES ('JailerOfTemperance',4047,1469);
 
+-- Orna (NM)
+INSERT INTO `mob_skill_lists` VALUES ('Orna',4048,396); -- Smite of Fury
+
 -- End of AirSkyBoat section
 
 -- ------------------------------------------------------------

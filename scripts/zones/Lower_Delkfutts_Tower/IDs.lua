@@ -24,6 +24,7 @@ zones[xi.zone.LOWER_DELKFUTTS_TOWER] =
         MEMBERS_LEVELS_ARE_RESTRICTED    = 7212,  -- Your party is unable to participate because certain members' levels are restricted.
         FISHING_MESSAGE_OFFSET           = 7249,  -- You can't fish here.
         SOMETHING_HUGE_BEARING_DOWN      = 7497,  -- Something huge is bearing down upon you!
+        BLOODTHIRSTY                     = 7513,  -- A Bloodthirsty Monster has appeared!
         PLAYER_OBTAINS_ITEM              = 8632,  -- <name> obtains <item>!
         UNABLE_TO_OBTAIN_ITEM            = 8633,  -- You were unable to obtain the item.
         PLAYER_OBTAINS_TEMP_ITEM         = 8634,  -- <name> obtains the temporary item: <item>!
@@ -41,17 +42,20 @@ zones[xi.zone.LOWER_DELKFUTTS_TOWER] =
             [17531000] = 17530999, -- 337.079 -16.1 17.386
             [17531002] = 17530999, -- 346.244 -16.126 10.373
         },
-        EPIALTES_PH   =
+        EPIALTES_PH =
         {
             [17530882] = 17530881, -- 432.952 -0.350 -3.719
             [17530887] = 17530881, -- 484.735 0.046 23.048
         },
-        EURYMEDON_PH  =
+        EURYMEDON_PH =
         {
             [17531118] = 17531114, -- 397.252 -32.128 -32.807
         },
-        DISASTER_IDOL = 17531121,
-        EURYMEDON     = 17531114,
+        DISASTER_IDOL         = 17531121,
+        EURYMEDON             = 17531114,
+        ORNA                  = 17531122,
+        FORMORIAN_SPEAR_1     = 17531123,
+        FORMORIAN_SPEAR_2     = 17531124,
     },
     npc =
     {

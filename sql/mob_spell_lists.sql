@@ -5635,6 +5635,11 @@ INSERT INTO `mob_spell_lists` VALUES ('Ixzdei_BLM_start',5074,159,2,255);  -- st
 INSERT INTO `mob_spell_lists` VALUES ('Ixzdei_BLM_start',5074,164,42,255); -- thunder (42~255)
 INSERT INTO `mob_spell_lists` VALUES ('Ixzdei_BLM_start',5074,169,10,255); -- water (10~255)
 
+-- Orna (Evil Weapon NM)
+INSERT INTO `mob_spell_lists` VALUES ('Orna',5075,170,40,40); -- water ii (40)
+INSERT INTO `mob_spell_lists` VALUES ('Orna',5075,260,40,40); -- dispel (40)
+INSERT INTO `mob_spell_lists` VALUES ('Orna',5075,258,40,40);  -- bind (7~255)
+
 /*!40000 ALTER TABLE `mob_spell_lists` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

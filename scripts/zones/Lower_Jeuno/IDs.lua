@@ -35,6 +35,7 @@ zones[xi.zone.LOWER_JEUNO] =
         GUIDE_STONE                   = 7153,  -- Up: Upper Jeuno (facing San d'Oria) Down: Port Jeuno (facing Windurst)
         ALDO_DIALOG                   = 7158,  -- Hi. I'm Aldo, head of Tenshodo. We deal in things you can't buy anywhere else. Take your time and have a look around.
         LAMP_MSG_OFFSET               = 7262,  -- All the lamps are lit.
+        LIT_MANUALLY                  = 7267,  -- You examine the lamp. It seems that it must be lit manually.
         ZAUKO_IS_RECRUITING           = 7270,  -- Zauko is recruiting an adventurer to light the lamps.
         CHOCOBO_DIALOG                = 7332,  -- Hmph.
         MERTAIRE_DEFAULT              = 7438,  -- Who are you? Leave me alone!
@@ -46,6 +47,7 @@ zones[xi.zone.LOWER_JEUNO] =
         ITEM_DELIVERY_DIALOG          = 7796,  -- Now offering quick and easy delivery of packages to residences everywhere!
         MERTAIRE_RING                 = 8057,  -- So, what did you do with that ring? Maybe it's valuable. I'd ask a collector if I were you. Of course, he might just say it's worthless...
         CONQUEST                      = 8069,  -- You've earned conquest points!
+        HYPER_ALTIMETER               = 8845,  -- You find the Hyper Altimeter hidden within the streetlamp and place it in the molybdenum box.
         PARIKE_PORANKE_DIALOG         = 8967,  -- All these people running back and forth... There have to be a few that have munched down more mithkabobs than they can manage. (And if I don't hand in this report to the Orastery soon... Ulp!)
         PARIKE_PORANKE_1              = 8968,  -- Hey you! Belly bursting? Intestines inflating? Bladder bulging? I can tell by the notch on your belt that you've been overindulging yourself in culinary delights.
         PARIKE_PORANKE_2              = 8971,  -- I mean, this is a new era. If somebody wants to go around with their flabby-flubber hanging out of their cloaks, they should have every right to do so. If someone wants to walk around town with breath reeking of Kazham pines and roasted sleepshrooms, who am I to stop them?
@@ -82,6 +84,21 @@ zones[xi.zone.LOWER_JEUNO] =
         CHULULU           = 17780771,
         VHANA_EHGAKLYWHA  = 17780880,
         STREETLAMP_OFFSET = 17780881,
+        STREETLAMPS =
+        {
+            17780881,
+            17780882,
+            17780883,
+            17780884,
+            17780885,
+            17780886,
+            17780887,
+            17780888,
+            17780889,
+            17780890,
+            17780891,
+            17780892,
+        },
     },
 }
 
