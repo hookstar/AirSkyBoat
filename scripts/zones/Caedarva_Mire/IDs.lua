@@ -68,6 +68,7 @@ zones[xi.zone.CAEDARVA_MIRE] =
         TYGER                 = 17101203,
         MAHJLAEF_THE_PAINTORN = 17101204,
         EXPERIMENTAL_LAMIA    = 17101205,
+        DARK_RIDER_OFFSET     = 17101136,
     },
     npc =
     {
@@ -80,8 +81,9 @@ zones[xi.zone.CAEDARVA_MIRE] =
             17101333,
             17101334,
         },
-        RUNIC_PORTAL_AZOUPH = 17101271,
-        RUNIC_PORTAL_DVUCCA = 17101274,
+        RUNIC_PORTAL_AZOUPH       = 17101271,
+        RUNIC_PORTAL_DVUCCA       = 17101274,
+        WARHORSE_HOOFPRINT_OFFSET = 17101252,
     },
 }
 

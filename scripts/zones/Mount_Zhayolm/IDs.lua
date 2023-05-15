@@ -60,6 +60,7 @@ zones[xi.zone.MOUNT_ZHAYOLM] =
         ANANTABOGA            = 17027473,
         KHROMASOUL_BHURBORLOR = 17027474,
         SARAMEYA              = 17027485,
+        DARK_RIDER_OFFSET     = 17027459,
     },
     npc =
     {
@@ -72,6 +73,7 @@ zones[xi.zone.MOUNT_ZHAYOLM] =
             17027565,
             17027566,
         },
+        WARHORSE_HOOFPRINT_OFFSET = 17027511,
     },
 }
 

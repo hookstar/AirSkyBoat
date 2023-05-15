@@ -64,6 +64,7 @@ zones[xi.zone.BHAFLAU_THICKETS] =
         HARVESTMAN         = 16990252,
         LIVIDROOT_AMOOSHAH = DYNAMIC_LOOKUP,
         DEA                = DYNAMIC_LOOKUP,
+        DARK_RIDER_OFFSET  = 16990423,
     },
     npc =
     {
@@ -76,6 +77,7 @@ zones[xi.zone.BHAFLAU_THICKETS] =
             16990644,
             16990645,
         },
+        WARHORSE_HOOFPRINT_OFFSET = 16990593,
     },
 }
 

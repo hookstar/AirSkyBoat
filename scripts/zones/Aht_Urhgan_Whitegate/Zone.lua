@@ -79,6 +79,16 @@ zoneObject.onTriggerAreaEnter = function(player, triggerArea)
     }
 end
 
+zoneObject.onGameHour = function() -- Used to handle Spawn and despawn for Dark Rider
+    local hour = VanadielHour()
+
+    if hour == 22 then
+        xi.darkRider.handleSpawn()
+    elseif hour == 2 then
+        xi.darkRider.handleDeSpawn()
+    end
+end
+
 zoneObject.onTriggerAreaLeave = function(player, triggerArea)
 end
 

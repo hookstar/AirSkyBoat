@@ -15,6 +15,7 @@ zones[xi.zone.WAJAOM_WOODLANDS] =
         ITEM_OBTAINED                 = 6390, -- Obtained: <item>.
         GIL_OBTAINED                  = 6391, -- Obtained <number> gil.
         KEYITEM_OBTAINED              = 6393, -- Obtained key item: <keyitem>.
+        GIGANTIC_WARHORSE             = 6400, -- You find the hoofprint of a gigantic warhorse...
         FELLOW_MESSAGE_OFFSET         = 6419, -- I'm ready. I suppose.
         CARRIED_OVER_POINTS           = 7001, -- You have carried over <number> login point[/s].
         LOGIN_CAMPAIGN_UNDERWAY       = 7002, -- The [/January/February/March/April/May/June/July/August/September/October/November/December] <number> Login Campaign is currently underway!
@@ -58,6 +59,7 @@ zones[xi.zone.WAJAOM_WOODLANDS] =
         IRIZ_IMA               = 16986429,
         GOTOH_ZHA_THE_REDOLENT = 16986430,
         TINNIN                 = 16986431,
+        DARK_RIDER_OFFSET      = 16986421,
     },
     npc =
     {
@@ -70,6 +72,7 @@ zones[xi.zone.WAJAOM_WOODLANDS] =
             16986729,
             16986730,
         },
+        WARHORSE_HOOFPRINT_OFFSET  = 16986601,
     },
 }
 
