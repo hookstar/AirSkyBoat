@@ -448,6 +448,7 @@ CBattleEntity* CEnmityContainer::GetHighestEnmity()
                 {
                     continue;
                 }
+
                 active        = PEnmityObject.active;
                 HighestEnmity = Enmity;
                 highest       = it;
