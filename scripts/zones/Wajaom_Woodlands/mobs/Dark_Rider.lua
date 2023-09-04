@@ -9,7 +9,6 @@
 
 -----------------------------------
 local ID = require("scripts/zones/Wajaom_Woodlands/IDs")
-require("scripts/globals/status")
 require("scripts/globals/pathfind")
 
 local entity = {}
@@ -148,8 +147,27 @@ local pathNodes3 = -- todo clean up this table!
 }
 
 entity.onMobInitialize = function(mob)
+    mob:addImmunity(xi.immunity.SLEEP)
+    mob:addImmunity(xi.immunity.GRAVITY)
+    mob:addImmunity(xi.immunity.BIND)
+    mob:addImmunity(xi.immunity.STUN)
+    mob:addImmunity(xi.immunity.SILENCE)
+    mob:addImmunity(xi.immunity.PARALYZE)
+    mob:addImmunity(xi.immunity.BLIND)
+    mob:addImmunity(xi.immunity.SLOW)
+    mob:addImmunity(xi.immunity.POISON)
+    mob:addImmunity(xi.immunity.ELEGY)
+    mob:addImmunity(xi.immunity.REQUIEM)
+    mob:addImmunity(xi.immunity.LIGHT_SLEEP)
+    mob:addImmunity(xi.immunity.DARK_SLEEP)
+    mob:addImmunity(xi.immunity.ASPIR)
+    mob:addImmunity(xi.immunity.TERROR)
+    mob:addImmunity(xi.immunity.DISPEL)
     mob:setMobMod(xi.mobMod.DONT_ROAM_HOME, 1)
-    --mob:setMobMod(xi.mobMod.NO_WIDESCAN, 1) When PR gets merged from LSB.
+    mob:setMobMod(xi.mobMod.NO_WIDESCAN, 1)
+    mob:setUnkillable(true)
+    mob:hideHP(true)
+    mob:setMod(xi.mod.FASTCAST, 100)
 end
 
 entity.onMobSpawn = function(mob, npc)
@@ -167,7 +185,17 @@ end
 entity.onMobRoam = function(mob)
 end
 
+entity.onSpellPrecast = function(mob, spell)
+    if spell:getID() == 367 then
+        spell:setAoE(xi.magic.aoe.RADIAL)
+        spell:setFlag(xi.magic.spellFlag.HIT_ALL)
+        spell:setRadius(30)
+        spell:setMPCost(1)
+    end
+end
+
 entity.onMobEngaged = function(mob, target)
+    mob:castSpell(367, target) -- death
 end
 
 entity.onMobDisengage = function(mob)

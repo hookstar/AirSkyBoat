@@ -44,15 +44,15 @@ xi.darkRider.handleSpawn = function(zone, mob, npc) -- onGameHour is in Aht_Urhg
         caedarvahoofprint:setStatus(xi.status.DISAPPEAR)
         bhafulhoofprint:setStatus(xi.status.DISAPPEAR)
 
-    if zoneSelect == 1 then
-        GetMobByID(bhaflauID.mob.DARK_RIDER_OFFSET):spawn()
-    elseif zoneSelect == 2 then
-        GetMobByID(caedarvaID.mob.DARK_RIDER_OFFSET):spawn()
-    elseif zoneSelect == 3 then
-        GetMobByID(zhayolmID.mob.DARK_RIDER_OFFSET):spawn()
-    elseif zoneSelect == 4 then
-        GetMobByID(wajoamID.mob.DARK_RIDER_OFFSET):spawn()
-    end
+    local idTable =
+    {
+        bhaflauID.mob.DARK_RIDER_OFFSET,
+        caedarvaID.mob.DARK_RIDER_OFFSET,
+        zhayolmID.mob.DARK_RIDER_OFFSET.
+        wajoamID.mob.DARK_RIDER_OFFSET,
+    }
+
+    GetMobByID(idTable[zoneSelect]):spawn()
 end
 
 xi.darkRider.handleDeSpawn = function(zone, mob, npc)

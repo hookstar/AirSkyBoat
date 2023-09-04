@@ -4080,6 +4080,7 @@ INSERT INTO `mob_skill_lists` VALUES ('Furies',4073,395); -- jetstream
 INSERT INTO `mob_skill_lists` VALUES ('Furies',4073,393); -- sonic_boom
 INSERT INTO `mob_skill_lists` VALUES ('Furies',4073,1157); -- slipstream
 INSERT INTO `mob_skill_lists` VALUES ('Furies',4073,1158); -- turbulence
+INSERT INTO `mob_skill_lists` VALUES ('Dark_Rider',4074,2126); -- zantetsuken
 -- End of AirSkyBoat section
 
 -- ------------------------------------------------------------

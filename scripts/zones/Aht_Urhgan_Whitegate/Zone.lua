@@ -83,9 +83,9 @@ end
 zoneObject.onGameHour = function() -- Used to handle Spawn and despawn for Dark Rider
     local hour = VanadielHour()
 
-    if hour == 22 then
+    if hour == 20 then
         xi.darkRider.handleSpawn()
-    elseif hour == 2 then
+    elseif hour == 5 then
         xi.darkRider.handleDeSpawn()
     end
 end

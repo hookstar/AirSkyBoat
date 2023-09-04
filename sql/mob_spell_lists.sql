@@ -5745,6 +5745,9 @@ INSERT INTO `mob_spell_lists` VALUES ('Bukki',5076,252,45,255); -- stun (45~255)
 INSERT INTO `mob_spell_lists` VALUES ('Bukki',5076,254,4,255);  -- blind (4~255)
 INSERT INTO `mob_spell_lists` VALUES ('Bukki',5076,258,7,255);  -- bind (7~255)
 
+-- Dark Rider
+INSERT INTO `mob_spell_lists` VALUES ('Dark_Rider',5077,367,1,255);  -- Death
+
 /*!40000 ALTER TABLE `mob_spell_lists` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

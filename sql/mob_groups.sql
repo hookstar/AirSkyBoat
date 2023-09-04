@@ -2530,7 +2530,7 @@ INSERT INTO `mob_groups` VALUES (43,2123,51,'Jaded_Jody',0,32,1389,13800,0,80,80
 INSERT INTO `mob_groups` VALUES (44,2545,51,'Mamool_Ja_Zenist',300,0,1602,0,0,72,73,0);
 INSERT INTO `mob_groups` VALUES (45,393,51,'Berried_Chigoe',0,128,255,0,0,60,60,0);
 INSERT INTO `mob_groups` VALUES (46,716,51,'Chigoes_Nit',0,128,0,0,0,48,48,0);
-INSERT INTO `mob_groups` VALUES (47,916,51,'Dark_Rider',0,128,0,0,0,95,95,0);
+INSERT INTO `mob_groups` VALUES (47,916,51,'Dark_Rider',0,128,0,10000,10000,95,95,0);
 INSERT INTO `mob_groups` VALUES (48,910,51,'Dark_Bugler',0,128,0,0,0,76,76,0);
 INSERT INTO `mob_groups` VALUES (49,914,51,'Dark_Esquire',0,128,569,0,0,76,76,0);
 INSERT INTO `mob_groups` VALUES (50,4265,51,'Vulpangue',0,128,2594,15000,0,78,80,0);
