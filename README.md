@@ -1,6 +1,6 @@
 <p align="center">
-    <img width="256" height="256" src="res/lsb_logo_circle.png">
-    <h1 align="center">LandSandBoat</h1>
+    <img width="256" height="256" src="res/ASB_logo_circle.png">
+    <h1 align="center">AirSkyBoat</h1>
 </p>
 
 <p align="center">
@@ -9,33 +9,39 @@
 <a href="https://github.com/LandSandBoat/server/pulls"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"/></a>
 </p>
 
-Welcome to LandSandBoat, an open source server emulator for FFXI.
+Welcome to AirSkyBoat, an open source server emulator for FFXI based off of the level 75 era. Our repository is a fork off of the parent project LandSandBoat, which you can find at https://github.com/LandSandBoat/server. The cutoff date for ASB changes is just before the level cap raise patch in June 2010.
+
+Our main place that we discuss changes and issues is on our Discord which can be found at https://discord.gg/SM2J2z8Cz6
+
+At AirSkyBoat, we are focused on giving credit where its due when pulling in Open Source material from other repositories. If you find that we have not properly given credit for accepted code, please reach out to us on our Discord so that we can correct it.
 
 ## Getting Started
 
-A [quick start guide](https://github.com/LandSandBoat/server/wiki/Quick-Start-Guide), the [frequently asked questions](https://github.com/LandSandBoat/server/wiki/Frequently-Asked-Questions), and a table of "[what works](https://github.com/LandSandBoat/server/wiki/What-Works)" are all available on [our wiki](https://github.com/LandSandBoat/server/wiki).
+As AirSkyBoat is a derivative of LandSandBoat, please use all of their guides for how to setup a server. They have a great and consistently updated wiki for how to work with their systems.
 
-## Interacting with LandSandBoat
+A [quick start guide](https://github.com/LandSandBoat/server/wiki/Quick-Start-Guide), the [frequently asked questions](https://github.com/LandSandBoat/server/wiki/Frequently-Asked-Questions), and a table of "[what works](https://github.com/LandSandBoat/server/wikis/What-Works)" are all available on [LSB's wiki](https://github.com/LandSandBoat/server/wiki).
+
+## Interacting with AirSkyBoat
 
 ### Crashes, bugs, obvious gameplay issues etc
 
+#### Is your issue related to an era inaccuracy or a bug directly related to ASB content?
+
+Please search our [issues tab](https://github.com/AirSkyBoat/AirSkyBoat/issues) and if you do not see a similar issue, please create a new one.
+
+#### Is your issue related to a problem that you can find on retail today?
+
+Issues like this should be submitted to LandSandBoat.
 Please search the [issues tab](https://github.com/LandSandBoat/server/issues) and see if your issue is already logged, or create a new one.
+
+#### Is your issue related to a specific private server?
+
+Please open an issue directly with that server's recommended bug reporting location.
 
 ### Balance discussion, technical discussion, meta discussions etc
 
-For topics with less direction than issues, a discussion is probably a better fit.
-Please search the [discussions tab](https://github.com/LandSandBoat/server/discussions) and see if your topic has already been discussed, or create a new one.
+We are active on our [Discord](https://discord.gg/SM2J2z8Cz6) and any discussions like this should be done there.
 
 ## LICENSE
 
-LandSandBoat is licensed under [GNU GPL v3](https://github.com/LandSandBoat/server/blob/base/LICENSE)
-
-## Thanks
-
-Thanks to all contributors past and present, we wouldn't be here without you!
-
-Thanks to GitHub for hosting us, and for all the CI minutes we use!
-
-Thanks to JetBrains for providing our core contributors with "All Products Pack" licenses for our continued open source work. It's much appreciated, we love ReSharper C++ and CLion!
-
-<img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" alt="JetBrains Logo (Main) logo." width="200">
+LandSandBoat and AirSkyBoat is licensed under [GNU GPL v3](https://github.com/AirSkyBoat/AirSkyBoat/blob/staging/LICENSE)
