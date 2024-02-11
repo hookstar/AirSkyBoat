@@ -37,5 +37,7 @@ set(UTIL_SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/trustutils.h
     ${CMAKE_CURRENT_SOURCE_DIR}/zoneutils.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/zoneutils.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/asbutils.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/asbutils.cpp
     PARENT_SCOPE
 )
