@@ -1,6 +1,7 @@
 -----------------------------------
 -- Navigating the Unfriendly Seas
 -- qm6 (H-10/Boat)  : !pos 468.767 -12.292 111.817 54
+-- Leleroon !pos -12.652 0 26.8 53
 -- Leypoint : !pos -200.027 -8.500 80.058 51
 -----------------------------------
 require('scripts/globals/quests')
@@ -86,7 +87,7 @@ quest.sections =
                     then
                         player:confirmTrade()
                         quest:setVar(player, 'Prog', 2)
-                        quest:setVar(player, 'leypointTimer', getMidnight())
+                        quest:setVar(player, 'leypointTimer', os.time() + 60) -- retail timer - era replaced in era_quest_timers module
                         return quest:messageSpecial(wajaomID.text.PLACE_HYDROGAUGE, xi.items.HYDROGAUGE)
                     end
                 end,
