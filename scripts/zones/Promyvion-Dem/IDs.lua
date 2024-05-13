@@ -17,7 +17,8 @@ zones[xi.zone.PROMYVION_DEM] =
         LOGIN_CAMPAIGN_UNDERWAY       = 7002, -- The [/January/February/March/April/May/June/July/August/September/October/November/December] <number> Login Campaign is currently underway!
         LOGIN_NUMBER                  = 7003, -- In celebration of your most recent login (login no. <number>), we have provided you with <number> points! You currently have a total of <number> points.
         MEMBERS_LEVELS_ARE_RESTRICTED = 7023, -- Your party is unable to participate because certain members' levels are restricted.
-        BARRIER_WOVEN                 = 7223, -- It appears to be a barrier woven from the energy of overflowing memories...
+        BARRIER_WOVEN                 = 7226, -- It appears to be a barrier woven from the energy of overflowing memories...
+        EERIE_GREEN_GLOW              = 7228, -- The sphere is emitting an eerie green glow.
     },
     mob =
     {
@@ -36,29 +37,11 @@ zones[xi.zone.PROMYVION_DEM] =
             [16851170] = { 4, 7, 16851288 },
         },
 
-        SATIATOR    = 16851267,
+        SATIATOR = GetFirstID('Satiator'),
     },
     npc =
     {
-        MEMORY_STREAMS =
-        {
-            [11]        = {  157, -4,  -82,  161, 4,  -77, { 46 } },     -- floor 1 return
-            [21]        = { -383, -4,   -2, -278, 4,    2, { 41 } },     -- floor 2 return
-            [31]        = { -160, -4,  437, -157, 4,  441, { 30 } },     -- floor 3 return
-            [32]        = {   -2, -4, -322,    2, 4, -317, { 30 } },     -- floor 3 return
-            [41]        = {  357, -4,  237,  361, 4,  242, { 34 } },     -- floor 4 return
-            [16851278]  = {  117, -4, -283,  122, 4, -277, { 30 } },     -- floor 1 MR1
-            [16851282]  = {  -83, -4,  -83,  -77, 4,  -76, { 34, 35 } }, -- floor 2 MR1
-            [16851283]  = {  -82, -4,   76,  -77, 4,   80, { 34, 35 } }, -- floor 2 MR2
-            [16851284]  = { -282, -4, -202, -277, 4, -196, { 34, 35 } }, -- floor 2 MR3
-            [16851285]  = { -361, -4,   36, -356, 4,   42, { 34, 35 } }, -- floor 2 MR4
-            [16851279]  = {   37, -4, -203,   43, 4, -198, { 32 } },     -- floor 3 MR1
-            [16851280]  = { -122, -4, -242, -116, 4, -237, { 32 } },     -- floor 3 MR2
-            [16851281]  = { -122, -4, -402, -116, 4, -396, { 32 } },     -- floor 3 MR3
-            [16851286]  = { -322, -4,  156, -316, 4,  162, { 32 } },     -- floor 3 MR4
-            [16851287]  = {  -42, -4,  317,  -37, 4,  322, { 32 } },     -- floor 3 MR5
-            [16851288]  = { -122, -4,  157, -118, 4,  163, { 32 } },     -- floor 3 MR6
-        },
+        MEMORY_STREAM_OFFSET = GetFirstID('_0i1'),
     },
 }
 
